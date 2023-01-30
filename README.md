@@ -14,12 +14,4 @@
 2. **Run** dotnet restore
 3. **Run** dotnet ef migrations add Init
 4. **Edit** appsettings.json and appsettings.Development.json
---- ConnectionStrings
------ ConnStr 
-------- Change User ID=xxxxx
-------- Change Server=xxx.xxx.xxx.xxx
-------- Change Port=xxxx
-------- Change Database=xxxxx
---- Jwt
------ Change "Secret":"xxxxxxxxxxxxxxxxxxxxxx"
 4. **Run** dotnet ef database update
